@@ -1,0 +1,69 @@
+:root {   
+    /* Titles */  
+    --monserrat-font:'Montserrat', sans-serif;
+    --monserrat-font-color:  #572EE5;
+    --monserrat-size-35: 35px;
+    --monserrat-size-30: 30px;
+    --monserrat-size-25: 25px;
+    --monserrat-size-20: 20px;
+    --monserrat-size-16: 16px;
+    --monserrat-size-15: 15px;
+    --monserrat-size-14: 14px;
+
+    --monserrat-lineheight: 33px;
+    --monserrat-lineheight: 33px;
+    --monserrat-lineheight: 33px;
+    --monserrat-lineheight: 33px;
+    --monserrat-lineheight: 33px;
+    --monserrat-lineheight: 33px;
+    --titles-font-weight: 400;
+    /* Subtitles */
+    --subtitles-font:'IBM Plex Sans', sans-serif;
+    --subtitles-font-color: #060A24;
+    --subtitles-size: 24px;
+    --subtitles-font-weight: 800;
+    /* Text */
+    --text-font:'IBM Plex Mono';
+    --text-font-color:  #060A24;
+    --text-size: 14px;
+    --text-lineheight: 22px;
+    --text-font-weight: 400;
+    /* Buttons */
+    --buttons-font:'IBM Plex Mono';
+    --buttons-font-color:  #060A24;
+    --buttons-font-size: 16px;
+    --buttons-font-lineheight: 22px;
+    --buttons-font-weight: 500;    
+    --buttons-background: #00F3BB;
+    --buttons-hover-background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+    --buttons-hover-font-color: #fff;
+    --button-width:100%;
+    --button-padding: 14px 0 14px 0;
+    /* Clipped Background */
+    --clipped-background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    --clipped-area-section2: polygon(0 3%, 100% 0, 100% 97%,0 100%);
+    --clipped-area-section6: polygon(0 11%, 100% 0, 100% 100%,0 100%);  
+    /* Sections */
+    --sections-padding: 0 16px 0 16px;
+    /* Section 1 */
+    --section1-margins: 29px 0 24px 0;
+}
+@media screen and (min-width: 600px){
+    :root {
+        --titles-size: 48px;
+        --titles-lineheight: 64px;
+        --main-title-size: 64px;
+        --sub-subtitles-size: 48px;
+        --button-width:226px;
+        --button-padding: 16px 0 16px 0;
+        --buttons-font-lineheight: 24px;
+        --buttons-font-size: 18px;
+        --text-lineheight: 24px;
+        --text-size: 16px;
+        --section1-margins:150px 25% 5px 200px;
+        --sections-padding: 0;
+        --sections-margin: 0 0 0 200px;
+        --clipped-area-section2: polygon(0 14.5%, 100% 0, 100% 85.5%,0 100%);
+        --clipped-area-section6: polygon(0 30%, 100% 0, 100% 100%,0 100%);  
+    }
+}

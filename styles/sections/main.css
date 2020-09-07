@@ -1,0 +1,16 @@
+main {
+    
+}
+
+.main-no {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.background {
+    width: 100%;
+}
+.loguito {
+    width:20%;
+    display: none;
+}

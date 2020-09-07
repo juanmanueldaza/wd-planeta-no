@@ -1,0 +1,163 @@
+.header {
+    display:flex;
+    flex-direction: column;
+    flex-basis: 95%;
+    height:auto;
+    justify-content: center;
+    height: 20vh; 
+}
+.logo {
+    width: 60%;
+    padding-top: 18px;
+}
+.menu-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.drop-menu {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 19px;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+.drop-nav {
+    display: none; 
+}
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logos {
+    width:60%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+
+.cross:hover {
+    cursor: pointer;
+}
+#icons {
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+a:active {
+    display: flex;  
+}
+
+.nav1:hover {
+}
+
+nav a:hover {
+    background-color:  rgb(2, 2, 179);
+}
+
+nav a:active {
+}
+
+#btn-area:checked ~ .drop-nav {
+    display: flex;
+    flex-direction: column;
+}
+#btn-area:checked ~ .drop-menu #icons #cross {
+    display: block;
+}
+#btn-area:checked ~ .drop-menu #icons #hamburger {
+    display: none;
+}
+#btn-area:checked ~ .drop-menu .logo {
+    opacity: 0;
+}
+header input {
+    display: none;
+}
+label {
+    display: block;
+}
+#cross {
+    display: none;
+}
+
+@media screen and (min-width: 600px) {
+    .menu-mobile {
+        flex-direction: row;
+        flex-basis: 100%;
+        margin-left: 100px;
+        margin-right: 0px;
+        margin-top: 22px;
+    }
+    
+    .drop-menu {
+        flex: 1;
+    }
+    .drop-nav {
+        display: flex;
+        height:auto;
+        margin-right: 85px;
+        flex:1;  
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        flex-basis: 100%;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: row;
+        width: fit-content;
+    }
+
+    nav a:hover {
+        background:  none;
+    }
+
+    .nav .links {
+        padding-left:0;
+        color: black;
+    }
+
+    .links {     
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: auto;
+
+        
+    }   
+
+    .links:hover {
+        text-decoration: line-through;
+        color: #00F3BB;       
+    }
+
+    .links:active {
+        color: rgba(6,10,36,0.56);
+    }
+    #hamburger {
+        display: none;
+    }
+
+    .logo {
+    }
+}
